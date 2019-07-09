@@ -1,4 +1,4 @@
-package com.learning.payment.service;
+package com.learning.payment.model;
 
 import java.math.BigDecimal;
 
@@ -12,7 +12,7 @@ public class PaymentInformation {
 
     @Override
     public String toString() {
-        return "PaymentInformation{" +
+        return "PaymentTransactionLedger{" +
                 "fromAccountNumber=" + fromAccountNumber +
                 ", toAccountNumber=" + toAccountNumber +
                 ", fromAccountSortCode=" + fromAccountSortCode +
